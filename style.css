@@ -1,0 +1,133 @@
+html{
+    font-size: 62.5%;
+    font-family:"Roboto",sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family:"Roboto",sans-serif; 
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e2d2e;
+}
+
+.card{
+    min-height: 56px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+   margin:10rem auto;
+   padding:5rem 2rem 6rem;
+}
+
+.card-top{
+    position: relative;
+}
+
+.card-img{
+    display: block;
+    object-fit: cover;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    margin:  2rem auto;
+}
+
+.status{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #03a07d;
+    top: 15%;
+    left:67%;
+    border-radius: 50%;
+    border:1.7px solid white;
+    outline: white;
+}
+
+.card-mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.card-mid .card-heading{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom,red,blue);
+}
+
+.card-para{
+    text-align: center;
+    font-weight:400;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.card-mid__2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.first,.second,.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first > p,
+.second > p,
+.third > p
+{
+    color:#f7656a;
+    font-weight: bold;
+}
+
+.first > h3,
+.second > h3,
+.third > h3
+{
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-btn, .right-btn{
+    padding:10px;
+    width: calc(50% - 3rem);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+.left-btn{
+    background-color: #e05659
+}
+
+.right-btn{
+    background-color: #225ddf;
+}
